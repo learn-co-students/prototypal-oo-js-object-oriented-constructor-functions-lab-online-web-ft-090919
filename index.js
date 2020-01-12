@@ -14,9 +14,7 @@ class Driver {
   }
 }
 
-class PickUpLocation {
-  constructor(address, city) {
-    this.address = address;
-    this.city = city;
-  }
+function PickupLocation(address, city) {
+  this.address = address;
+  this.city = city;
 }
